@@ -11,7 +11,11 @@ c2.setCid(113);
 c2.setCname("mukesh");
 c2.setAddress("karaikal");
 System.out.println("Customer id:"+c1.getCid()+" Customer name:"+c1.getCname()+"Customer Address:"+c1.getAddress());
-System.out.println("Customer id:"+c2.getCid()+" Customer name:"+c2.getCname()+"Customer Address:"+c2.getAddress());
+System.out.println(c2);  //calling the tostring method
+Customer c3=new Customer();  //invoke Explicit defalut constructor
+System.out.println(c3);
 
+Customer c4=new Customer(114,"kaviya","chennai");//invoke parameterized constructor
+System.out.println(c4);
 }
 }
